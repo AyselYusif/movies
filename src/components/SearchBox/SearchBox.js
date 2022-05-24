@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './SearchBox.css';
 
 class SearchBox extends Component {
+    
     state = {
         searchLine: ''
     }
@@ -39,5 +40,7 @@ class SearchBox extends Component {
         );
     }
 }
+ const mapStateToProps = (state) => ({})
  
-export default SearchBox;
+ const mapDispatchToProps = {}
+export default connect (mapDispatchToProps,mapDispatchToProps);
