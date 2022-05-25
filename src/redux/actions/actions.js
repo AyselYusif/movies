@@ -26,7 +26,7 @@ export const getMovies = (payload) => ({
   payload,
 });
 
-export const removeMovie = (payload) => ({
+export const removeMovies = (payload) => ({
   type: REMOVE_MOVIE_FROM_LIST,
   payload,
 });

@@ -24,7 +24,7 @@
         padding: 6vw calc(50% - 40vw);
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .search-box__form{
@@ -42,16 +42,14 @@
     }
     
     .main-page__search-box {
-        margin-bottom: 4vw;
+        margin-bottom: 10vw;
     }
 
    
 .main-page__favorites {
     width: 100%;   
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vw;
+     margin-bottom: 10vw;
 }
  
 }

@@ -8,7 +8,7 @@ class Favorites extends Component {
     const { listMovies, removeMovies } = this.props;
     return (
       <div className="favorites">
-        <input value="Новый список" className="favorites__name" />
+        <input placeholder="Новый список" className="favorites__name" />
         <ul className="favorites__list">
           {listMovies.map((item) => {
             return (
