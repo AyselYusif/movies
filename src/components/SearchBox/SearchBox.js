@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./SearchBox.css";
 import { connect } from "react-redux";
-import { getMovies, getApi } from "../../redux/actions/actions";
+import { remoteData } from "../../redux/actions/actions";
 class SearchBox extends Component {
   state = {
     searchLine: "",
@@ -14,7 +14,7 @@ class SearchBox extends Component {
   };
   render() {
     const { searchLine } = this.state;
-    const { getMovies } = this.props;
+    const { remoteData } = this.props;
     return (
       <div className="search-box">
         <form
@@ -34,14 +34,7 @@ class SearchBox extends Component {
           <button
             type="submit"
             className="search-box__form-submit"
-            onClick={() =>
-              getApi(searchLine)
-                .then((res) => getMovies(res))
-                .catch((err) => {
-                  getMovies([]);
-                  return err;
-                })
-            }
+            onClick={() => remoteData(searchLine)}
             disabled={!searchLine}
           >
             Искать
@@ -54,8 +47,8 @@ class SearchBox extends Component {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    getMovies: (movie) => {
-      dispatch(getMovies(movie));
+    remoteData: (search) => {
+      dispatch(remoteData(search));
     },
   };
 };
