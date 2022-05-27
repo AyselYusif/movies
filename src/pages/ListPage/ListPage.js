@@ -31,7 +31,7 @@ class ListPage extends Component {
               <li key={item.imdbID}>
                 <a
                   href={"https://www.imdb.com/title/" + item.imdbID}
-                  className="link__block"
+                  className="link___block"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

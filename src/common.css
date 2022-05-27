@@ -1,9 +1,26 @@
 /* Color palette https://coolors.co/ffeedb-e63946-6a8d73-000807-496ddb */
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-body, button, input {
-    font-family: 'Roboto', 'Helvetica', sans-serif;
-    color: #000807;
+body,
+button,
+input {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  color: #000807;
 }
 
+button {
+  color: red;
+  border: none;
+  box-shadow: 11px 9px 5px -3px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 11px 9px 5px -3px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 11px 9px 5px -3px rgba(0, 0, 0, 0.09);
+}
+/* body {
+  min-height: 100vh;
+  max-height: max-content;
+  background-image: url(https://cdn.segmentnext.com/wp-content/uploads/2021/06/GTA-5-Vice-City-Mod.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
