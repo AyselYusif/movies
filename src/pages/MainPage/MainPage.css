@@ -2,10 +2,11 @@
   padding: 42px calc(50% - 500px);
   display: flex;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 89.9vh;
   max-height: max-content;
   object-fit: cover;
-  background-image: url(https://images7.alphacoders.com/589/thumb-1920-589957.jpg);
+  background-image: url(http://bgfons.com/uploads/lines/lines_texture1095.jpg);
+  box-sizing: border-box;
 }
 
 .main-page__main-section {

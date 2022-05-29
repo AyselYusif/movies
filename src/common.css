@@ -10,17 +10,14 @@ input {
 }
 
 button {
-  color: red;
-  border: none;
+  color: #2a4f67;
+  border-radius: 5px;
+  border: 1px solid #2a4f67;
   box-shadow: 11px 9px 5px -3px rgba(0, 0, 0, 0.09);
   -webkit-box-shadow: 11px 9px 5px -3px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 11px 9px 5px -3px rgba(0, 0, 0, 0.09);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-/* body {
-  min-height: 100vh;
-  max-height: max-content;
-  background-image: url(https://cdn.segmentnext.com/wp-content/uploads/2021/06/GTA-5-Vice-City-Mod.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */

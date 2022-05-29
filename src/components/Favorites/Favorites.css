@@ -28,7 +28,7 @@
 
 .favorites__save {
   border: none;
-  background-color: #496ddb;
+  background-color: #2a4f67;
   padding: 10px 15px;
   color: #ffeedb;
   font-size: 14px;
@@ -51,7 +51,7 @@
 
 .link__block {
   display: block;
-  color: #db4949;
+  color: #2a4f67;
   text-decoration: none;
   font-weight: bold;
   margin-bottom: 15px;
